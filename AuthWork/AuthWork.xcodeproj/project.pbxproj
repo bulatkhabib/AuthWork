@@ -13,6 +13,12 @@
 		9EC01E31274BECD9002A48BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EC01E2F274BECD9002A48BA /* Main.storyboard */; };
 		9EC01E33274BECDC002A48BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EC01E32274BECDC002A48BA /* Assets.xcassets */; };
 		9EC01E36274BECDC002A48BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EC01E34274BECDC002A48BA /* LaunchScreen.storyboard */; };
+		9EC01E3F274BEE22002A48BA /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC01E3E274BEE22002A48BA /* AppCoordinator.swift */; };
+		9EC01E41274BEE64002A48BA /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC01E40274BEE64002A48BA /* Coordinator.swift */; };
+		9EC01E44274BEF4F002A48BA /* ModuleFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC01E43274BEF4F002A48BA /* ModuleFactory.swift */; };
+		9EC01E46274BF057002A48BA /* CoordinatorFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC01E45274BF057002A48BA /* CoordinatorFactory.swift */; };
+		9EC01E48274BF0D5002A48BA /* FlowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC01E47274BF0D5002A48BA /* FlowController.swift */; };
+		9EC01E4A274BF101002A48BA /* RegistrationCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC01E49274BF101002A48BA /* RegistrationCoordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +30,12 @@
 		9EC01E32274BECDC002A48BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9EC01E35274BECDC002A48BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9EC01E37274BECDD002A48BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9EC01E3E274BEE22002A48BA /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		9EC01E40274BEE64002A48BA /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		9EC01E43274BEF4F002A48BA /* ModuleFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModuleFactory.swift; sourceTree = "<group>"; };
+		9EC01E45274BF057002A48BA /* CoordinatorFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorFactory.swift; sourceTree = "<group>"; };
+		9EC01E47274BF0D5002A48BA /* FlowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowController.swift; sourceTree = "<group>"; };
+		9EC01E49274BF101002A48BA /* RegistrationCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationCoordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,8 @@
 		9EC01E28274BECD9002A48BA /* AuthWork */ = {
 			isa = PBXGroup;
 			children = (
+				9EC01E42274BEF3D002A48BA /* Factories */,
+				9EC01E3D274BEE11002A48BA /* Coordinators */,
 				9EC01E29274BECD9002A48BA /* AppDelegate.swift */,
 				9EC01E2B274BECD9002A48BA /* SceneDelegate.swift */,
 				9EC01E2D274BECD9002A48BA /* ViewController.swift */,
@@ -65,6 +79,26 @@
 				9EC01E37274BECDD002A48BA /* Info.plist */,
 			);
 			path = AuthWork;
+			sourceTree = "<group>";
+		};
+		9EC01E3D274BEE11002A48BA /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				9EC01E3E274BEE22002A48BA /* AppCoordinator.swift */,
+				9EC01E40274BEE64002A48BA /* Coordinator.swift */,
+				9EC01E47274BF0D5002A48BA /* FlowController.swift */,
+				9EC01E49274BF101002A48BA /* RegistrationCoordinator.swift */,
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		9EC01E42274BEF3D002A48BA /* Factories */ = {
+			isa = PBXGroup;
+			children = (
+				9EC01E43274BEF4F002A48BA /* ModuleFactory.swift */,
+				9EC01E45274BF057002A48BA /* CoordinatorFactory.swift */,
+			);
+			path = Factories;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +172,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9EC01E3F274BEE22002A48BA /* AppCoordinator.swift in Sources */,
 				9EC01E2E274BECD9002A48BA /* ViewController.swift in Sources */,
+				9EC01E4A274BF101002A48BA /* RegistrationCoordinator.swift in Sources */,
+				9EC01E46274BF057002A48BA /* CoordinatorFactory.swift in Sources */,
+				9EC01E48274BF0D5002A48BA /* FlowController.swift in Sources */,
+				9EC01E41274BEE64002A48BA /* Coordinator.swift in Sources */,
 				9EC01E2A274BECD9002A48BA /* AppDelegate.swift in Sources */,
+				9EC01E44274BEF4F002A48BA /* ModuleFactory.swift in Sources */,
 				9EC01E2C274BECD9002A48BA /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
