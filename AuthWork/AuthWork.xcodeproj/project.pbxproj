@@ -13,6 +13,18 @@
 		9EC01E31274BECD9002A48BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EC01E2F274BECD9002A48BA /* Main.storyboard */; };
 		9EC01E33274BECDC002A48BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EC01E32274BECDC002A48BA /* Assets.xcassets */; };
 		9EC01E36274BECDC002A48BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EC01E34274BECDC002A48BA /* LaunchScreen.storyboard */; };
+		9EC01E3F274BEE22002A48BA /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC01E3E274BEE22002A48BA /* AppCoordinator.swift */; };
+		9EC01E41274BEE64002A48BA /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC01E40274BEE64002A48BA /* Coordinator.swift */; };
+		9EC01E44274BEF4F002A48BA /* ModuleFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC01E43274BEF4F002A48BA /* ModuleFactory.swift */; };
+		9EC01E46274BF057002A48BA /* CoordinatorFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC01E45274BF057002A48BA /* CoordinatorFactory.swift */; };
+		9EC01E48274BF0D5002A48BA /* FlowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC01E47274BF0D5002A48BA /* FlowController.swift */; };
+		9EC01E4A274BF101002A48BA /* RegistrationCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC01E49274BF101002A48BA /* RegistrationCoordinator.swift */; };
+		9EC01E4F274BFCD9002A48BA /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC01E4E274BFCD9002A48BA /* StartViewController.swift */; };
+		9EC01E52274C02ED002A48BA /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC01E51274C02ED002A48BA /* UserData.swift */; };
+		9EC01E54274C0573002A48BA /* EnterAuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC01E53274C0573002A48BA /* EnterAuthViewController.swift */; };
+		9EC01E56274C0815002A48BA /* EnterLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC01E55274C0815002A48BA /* EnterLoginViewController.swift */; };
+		9EC01E58274C0895002A48BA /* EnterPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC01E57274C0895002A48BA /* EnterPasswordViewController.swift */; };
+		9EC01E5A274C0908002A48BA /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC01E59274C0908002A48BA /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +36,18 @@
 		9EC01E32274BECDC002A48BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9EC01E35274BECDC002A48BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9EC01E37274BECDD002A48BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9EC01E3E274BEE22002A48BA /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		9EC01E40274BEE64002A48BA /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		9EC01E43274BEF4F002A48BA /* ModuleFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModuleFactory.swift; sourceTree = "<group>"; };
+		9EC01E45274BF057002A48BA /* CoordinatorFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorFactory.swift; sourceTree = "<group>"; };
+		9EC01E47274BF0D5002A48BA /* FlowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowController.swift; sourceTree = "<group>"; };
+		9EC01E49274BF101002A48BA /* RegistrationCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationCoordinator.swift; sourceTree = "<group>"; };
+		9EC01E4E274BFCD9002A48BA /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		9EC01E51274C02ED002A48BA /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		9EC01E53274C0573002A48BA /* EnterAuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterAuthViewController.swift; sourceTree = "<group>"; };
+		9EC01E55274C0815002A48BA /* EnterLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterLoginViewController.swift; sourceTree = "<group>"; };
+		9EC01E57274C0895002A48BA /* EnterPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterPasswordViewController.swift; sourceTree = "<group>"; };
+		9EC01E59274C0908002A48BA /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +80,10 @@
 		9EC01E28274BECD9002A48BA /* AuthWork */ = {
 			isa = PBXGroup;
 			children = (
+				9EC01E50274C02DF002A48BA /* Model */,
+				9EC01E4D274BFCC7002A48BA /* ViewControllers */,
+				9EC01E42274BEF3D002A48BA /* Factories */,
+				9EC01E3D274BEE11002A48BA /* Coordinators */,
 				9EC01E29274BECD9002A48BA /* AppDelegate.swift */,
 				9EC01E2B274BECD9002A48BA /* SceneDelegate.swift */,
 				9EC01E2D274BECD9002A48BA /* ViewController.swift */,
@@ -65,6 +93,46 @@
 				9EC01E37274BECDD002A48BA /* Info.plist */,
 			);
 			path = AuthWork;
+			sourceTree = "<group>";
+		};
+		9EC01E3D274BEE11002A48BA /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				9EC01E3E274BEE22002A48BA /* AppCoordinator.swift */,
+				9EC01E40274BEE64002A48BA /* Coordinator.swift */,
+				9EC01E47274BF0D5002A48BA /* FlowController.swift */,
+				9EC01E49274BF101002A48BA /* RegistrationCoordinator.swift */,
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		9EC01E42274BEF3D002A48BA /* Factories */ = {
+			isa = PBXGroup;
+			children = (
+				9EC01E43274BEF4F002A48BA /* ModuleFactory.swift */,
+				9EC01E45274BF057002A48BA /* CoordinatorFactory.swift */,
+			);
+			path = Factories;
+			sourceTree = "<group>";
+		};
+		9EC01E4D274BFCC7002A48BA /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				9EC01E4E274BFCD9002A48BA /* StartViewController.swift */,
+				9EC01E53274C0573002A48BA /* EnterAuthViewController.swift */,
+				9EC01E55274C0815002A48BA /* EnterLoginViewController.swift */,
+				9EC01E57274C0895002A48BA /* EnterPasswordViewController.swift */,
+				9EC01E59274C0908002A48BA /* MainViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		9EC01E50274C02DF002A48BA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9EC01E51274C02ED002A48BA /* UserData.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +206,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9EC01E3F274BEE22002A48BA /* AppCoordinator.swift in Sources */,
 				9EC01E2E274BECD9002A48BA /* ViewController.swift in Sources */,
+				9EC01E4A274BF101002A48BA /* RegistrationCoordinator.swift in Sources */,
+				9EC01E54274C0573002A48BA /* EnterAuthViewController.swift in Sources */,
+				9EC01E46274BF057002A48BA /* CoordinatorFactory.swift in Sources */,
+				9EC01E48274BF0D5002A48BA /* FlowController.swift in Sources */,
+				9EC01E58274C0895002A48BA /* EnterPasswordViewController.swift in Sources */,
+				9EC01E52274C02ED002A48BA /* UserData.swift in Sources */,
+				9EC01E4F274BFCD9002A48BA /* StartViewController.swift in Sources */,
+				9EC01E5A274C0908002A48BA /* MainViewController.swift in Sources */,
+				9EC01E41274BEE64002A48BA /* Coordinator.swift in Sources */,
 				9EC01E2A274BECD9002A48BA /* AppDelegate.swift in Sources */,
+				9EC01E44274BEF4F002A48BA /* ModuleFactory.swift in Sources */,
+				9EC01E56274C0815002A48BA /* EnterLoginViewController.swift in Sources */,
 				9EC01E2C274BECD9002A48BA /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
