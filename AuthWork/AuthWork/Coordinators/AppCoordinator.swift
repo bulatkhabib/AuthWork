@@ -23,7 +23,7 @@ class AppCoordinator: Coordinator {
         var isAuth = false
         
         if isAuth {
-            showMainFlow()
+         //   showMainFlow()
         } else {
             showRegistrationFlow()
             isAuth = true
@@ -43,6 +43,6 @@ class AppCoordinator: Coordinator {
     }
     
     private func showMainFlow() {
-        navigationController.pushViewController([MainViewController()], animated: true)
+        navigationController.pushViewController(MainViewController(), animated: true)
     }
 }

@@ -14,11 +14,11 @@ class ModuleFactory {
     }
     
     func createAuthModule() -> EnterAuthViewController {
-        AuthViewController()
+        EnterAuthViewController()
     }
     
     func createEnterLoginModule() -> EnterLoginViewController {
-        EnterNameViewController()
+        EnterLoginViewController()
     }
     
     func createEnterPasswordModule() -> EnterPasswordViewController {
